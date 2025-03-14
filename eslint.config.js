@@ -24,10 +24,5 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
     },
-    "plugins": ["simple-import-sort"],
-    "rules": {
-      "simple-import-sort/imports": "error",
-      
-    },
   },
 )
