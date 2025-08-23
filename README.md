@@ -1,54 +1,58 @@
-# React + TypeScript + Vite
+# 🍕 Pizza Dashboard - React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project focuses on practicing both **React concepts** and **API communication via HTTP requests**.  
+The goal is to develop a **pizza management application (admin dashboard)** using modern tools and libraries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Technologies Used
+- [Vite](https://vitejs.dev/)  
+- [React](https://react.dev/)  
+- [React Router DOM](https://reactrouter.com/)  
+- [React Hook Form](https://react-hook-form.com/)  
+- [shadcn/ui](https://ui.shadcn.com/)  
+- [React Query](https://tanstack.com/query/latest)  
+- [Vitest](https://vitest.dev/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ▶️ How to Run the Project
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/juliamchdo/pizza-shop-web.git
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Navigate into the project folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+   ```bash
+   cd pizza-shop-web
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+3. Install dependencies:
+
+   ```bash
+   yarn install
+
+4. Start the development server:
+
+   ```bash
+   yarn dev
+
+5. Open in your browser:
+   ```
+   http://localhost:5173
+---
+
+## 📚 Learning Goals
+
+This project was created to practice:
+
+* Core **React** concepts
+* **Routing** with React Router DOM
+* **Form handling** with React Hook Form
+* **UI components** with shadcn/ui
+* **Data fetching & caching** with React Query
+
+
+Quer que eu prepare esse README em um tom **mais profissional (para portfólio/GitHub)** como o anterior, ou deixo ele **mais leve e focado em estudo**?
 ```
