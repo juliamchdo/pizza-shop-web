@@ -52,7 +52,3 @@ This project was created to practice:
 * **Form handling** with React Hook Form
 * **UI components** with shadcn/ui
 * **Data fetching & caching** with React Query
-
-
-Quer que eu prepare esse README em um tom **mais profissional (para portfólio/GitHub)** como o anterior, ou deixo ele **mais leve e focado em estudo**?
-```
